@@ -48,7 +48,7 @@ class SegmentTree {
 	}
 
 	public int query(Segment node, int start, int end) {
-		if (node.start <= start && node.end >= end) {
+		if (start <= node.start && node.end >= end) {
 			return node.max;
 		}
 
