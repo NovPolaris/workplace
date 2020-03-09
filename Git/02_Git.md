@@ -14,5 +14,7 @@
 
 ### 对象
 	Git对象
+		key:value 组成的键值对(key是value对应的hash)
+				  键值对在git内部的
 	树对象
 	提交对象
