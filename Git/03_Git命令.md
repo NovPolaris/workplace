@@ -37,6 +37,11 @@
     git branch -d branchName                                    删除空的分支或者已经被合并的分支
     git branch -D branchName                                    强制删除分支
     git merge branchName                                        合并分支 (快速合并，典型合并)
+    git stash                                                   将当前分支上的工作推到一个栈中
+    git stash apply                                             将栈顶的工作内容还原 但不让任何内容出栈
+    git stash drop                                              删除栈顶的工作内容
+    git stash pop                                               取出栈顶的工作内容并删除
+    git stash list                                              查看栈内工作内容
 
 ### Other
 	git config --global alias.name command                      配别名
