@@ -29,11 +29,14 @@
 ### git高层命令(branch)
     git branch                                                  显示分支列表
     git branch -v                                               查看分支指向的最新的提交
+    git branch --merged / --no-merged                           查看合并/为合并到当前分支的分支列表
     git branch branchName                                       在当前提交对象上创建新的分支
     git branch branchName commitHash                            在指定的提交对象上创建新的分支
     git checkout branchName                                     切换分支
+    git checkout -b branchName                                  创建并切换分支
     git branch -d branchName                                    删除空的分支或者已经被合并的分支
     git branch -D branchName                                    强制删除分支
+    git merge branchName                                        合并分支 (快速合并，典型合并)
 
 ### Other
 	git config --global alias.name command                      配别名
