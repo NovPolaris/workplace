@@ -1,0 +1,15 @@
+myName: 合法
+字: 合法
+My_name: 合法
+Points: 合法
+$points: 合法
+_sys_ta: 合法
+OK: 合法
+_23b: 合法
+_3_: 合法
+#name: 不合法，#不能做标识符
+25name: 不合法，标识符不能以数字开头
+class: 不合法，class是关键字
+&time: 不合法，&不能做标识符
+if: 不合法，if是关键字
+Hello World: 不合法，空格不能做标识符
